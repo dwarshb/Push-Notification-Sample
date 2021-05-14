@@ -30,7 +30,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
     companion object {
         var token : String? = null
 
-        val key : String = "AAAANby6RJk:APA91bEDALGxn1Jj1eB2REEKnNfJfLlQlAsqsOAe_8jJrWErrS1UUaBT-o06Z84rZrO-J64RFtE_WKaZ_CABvWpGNidi05OwDyOJsmbYqBhIkyaDScnz3JAo2UPpRcE5oZS5HzwXJWBF"
+        val key : String = "------------------------------------------------------------------"
 
         fun subscribeTopic(context: Context, topic: String) {
             FirebaseMessaging.getInstance().subscribeToTopic(topic).addOnSuccessListener {
